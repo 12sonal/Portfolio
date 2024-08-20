@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Sonal</a>
+        
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#Home" class="nav__link active-link">
+                                <i class="uil uil-home nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#About" class="nav__link">
+                                <i class="uil uil-user-check nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills  
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Projects" class="nav__link">
+                                <i class="uil uil-book-open nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#ContactMe" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> ContactMe
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                
+                <div class="nav__btns">
+
+                    <!--Theme change button-->
+                    <i class="uil uil-brightness change-theme" id="theme-button"></i>
+            
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav> 
+        </header>
+        
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+        </main>
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                           <a href="https://www.linkedin.com/in/sonal-gurav-65b179184/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                           </a>
+
+                           <a href="https://www.salesforce.com/trailblazer/sgurav5" target="_blank" class= "home__social-icon">
+                            <i class="uil uil-cloud"></i>
+                           </a>
+
+                           <a href="https://github.com/12sonal" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                           </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class="home__blob-img" x='12' y='0' xlink:href="assets/img/perfil.jpg"/>
+                                </g>
+                            </svg>
+                            
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Sonal</h1>
+                            <h3 class="home__subtitle">Salesforce Developer</h3>
+                            <p class="home__description">Designing and developing custom applications, features and integrations within the Salesforce platform.</p>
+                            <a href="#contact" class="button button--flex">
+                                 Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div> 
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="About">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            Salesforce developer with extensive knowledge over <b>4 years</b> and a Master's degree in Information Systems from Northeastern University.  
+                            Skilled in building solutions using <b>Salesforce Declarative, </b> <b>Data management Flows, Process builder, workflows, Security models</b>.Profcient in deploying using
+                            <b>Apex, Triggers, LWCs, SOQL, SOSL, Visualforce, JavaScript, HTML, CSS</b>. As a forward looking developer I'm passionate about creating software solutions implementing <b>Java, Python, SQL.</b>
+                            Strong understanding of <b>SDLC</b> from concept through to development and delievery. 
+                           
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">04+</span>
+                                    <span class="about__info-name">Years <br> experience </span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">4</span>
+                                    <span class="about__info-name">Completed <br> projects </span>
+                                </div>
+
+                                <div>
+                                    <span class="about__info-title">1</span>
+                                    <span class="about__info-name">Companies <br> worked </span>
+                                </div>
+                            </div>
+                            <div class="about__buttons">
+                                <a download="" href="assets/pdf/Sonal Gurav.pdf" class="button button--flex">
+                                    Download Resume<i class="uil uil-file-download button__icon"></i>
+                                </a>
+                            </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="Skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My Technical level</span>
+
+                <div class="skills__container container grid">
+                    <div>
+            <!--==================== SKILLS 1 ====================-->
+            <div class="skills__content skills__open">
+                <div class="skills__header">
+                    <i class="uil uil-layers skills__icon"></i>
+
+                    <div>
+                        <h1 class="skills__title">CRM Customization</h1>
+                        
+                    </div>
+
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Process Automation</h3>
+                            <span class="skills__number">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__ProcessAutomation"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Data Management</h3>
+                            <span class="skills__number">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__DataManagement"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Security Management</h3>
+                            <span class="skills__number">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__SecurityManagement"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Standard & Custom Objects</h3>
+                            <span class="skills__number">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__StandardCustomObjects"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Data Modeling</h3>
+                            <span class="skills__number">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__DataModeling"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-cloud-database-tree skills__icon"></i>
+
+                    <div>
+                        <h1 class="skills__title">CRM development</h1>
+                    </div>
+
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Apex</h3>
+                            <span class="skills__number">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Apex"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Triggers</h3>
+                            <span class="skills__number">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Triggers"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Visualforce</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Visualforce"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Lightning Web Components</h3>
+                            <span class="skills__number">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__LightningWebComponents"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">API Integration</h3>
+                            <span class="skills__number">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__APIIntegration"></span>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <!--==================== SKILLS 3 =====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-brackets-curly skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">Languages</h1>
+                    </div>
+
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__number">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__JavaScript"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Java</h3>
+                            <span class="skills__number">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Java"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__number">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__HTML"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__number">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__CSS"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__number">75%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Python"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">SQL</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__SQL"></span>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+
+            <!--==================== SKILLS 4 =====================-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class="uil uil-process skills__icon"></i>
+                    <div>
+                        <h1 class="skills__title">SDLC</h1>
+                    </div>
+
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Agile</h3>
+                            <span class="skills__number">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Agile"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Waterfall</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__Waterfall"></span>
+                        </div>
+                    </div>
+
+             
+                 
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+            
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My Journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qaulification icon"></i>
+                             Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-suitcase qualification icon"></i>
+                             Work
+                        </div>
+                    </div>
+
+                    <div class="qualificaion__sections">
+       
+        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id= "education">
+
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->  
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">MS-Information Systems</h3>
+                                <span class="qualification__subtitle">Northeastern University - United States</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2022-2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+    <!--==================== QUALIFICATION CONTENT 1.1 ====================-->  
+    <div class="qualification__data">
+        <div></div>
+
+        <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+        </div>
+        
+        <div>
+            <h3 class="qualification__title">BEng-Computer Engineering</h3>
+            <span class="qualification__subtitle">Mumbai University - India</span>
+            <div class="qualification__calender">
+                <i class="uil uil-schedule"></i>
+                2014-2018
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--==================== QUALIFICATION CONTENT ====================-->
+<div class="qualification__content" data-content id="work">
+    <!--==================== QUALIFICATION CONTENT 2 ====================-->  
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Salesforce Developer</h3>
+                                    <span class="qualification__subtitle">Accenture</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        2020-2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+    <!--==================== QUALIFICATION CONTENT 2.1 ====================-->  
+                            <div class="qualification__data">
+                                <div> </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                
+                                <div>
+                                    <h3 class="qualification__title">Salesforce Administrator</h3>
+                                    <span class="qualification__subtitle">Accenture</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        2019-2020
+                                    </div>
+                                </div>
+                            </div>
+
+
+    <!--==================== QUALIFICATION CONTENT 2.2 ====================-->  
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Associate Software Engineer</h3>
+                                    <span class="qualification__subtitle">Accenture</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-schedule"></i>
+                                        2018-2019
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!--span class="qualification__line"></span-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--==================== My Projects ====================-->
+            <section class="projects section" id="Projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Academic Projects</span>
+
+                <div class="projects__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                      <!--==================== Project 1 ====================-->  
+                      <div class="projects__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Prediction of Wine Color & Quality using Data Analysis & Machine Learning</h3>
+                            <ul class="projects__description">
+                                <li>Performed in depth <b>Exploratory Data Analysis</b> & <b>data preprocessing</b> on Wine
+                                dataset, identifying key feature relationships.</li>
+                                <li>Achieved high performance accuracy over <b>93%</b>by training, testing and fine tunning supervised learning <b>Machine Learning</b> algorithms.
+                            </ul>
+                            <a href="https://github.com/12sonal/Data-Analysis-and-Prediction-of-Wine-Color-and-its-Quality-using-Machine-Learning" class="button button--flex button--small projects__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                      </div>
+
+                    <!--==================== Project 2 ====================-->  
+                      <div class="projects__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Airline Reservation Management System</h3>
+                            <ul class="projects__description">
+                                <li>Airline Reservation Management System is to create an efficient and centralized platform using <b>ERD</b>.</li>
+                                <li>Focuses on automating and streamlining the process of managing airline reservations, ticketing and related operations implementing <b>SQL, SSMS</b>
+                                    focusing on <b>DML, DDL quries and triggers</b>.
+                                </li> 
+                                <li>The system aims to prioritize affordability and accessibility for students. It should offer discounts and benefits tailored to students.</li>
+                                <li>Generated reports to show case the data & it's results using <b>Tableau.</b></li>
+                            </ul>
+                            <a href="https://github.com/12sonal/DAMG6210-Airline_Reservation_Managemeent_System" class="button button--flex button--small projects__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                      </div>
+
+                    <!--==================== Project 3 ====================-->  
+                    <div class="projects__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Image Processing</h3>
+                            <ul class="projects__description">
+                                <li>JavaFX involved creating a desktop application that enables users to apply various <b>image processing</b> techniques, such as filters, transformations, and adjustments, to digital images.</li>
+                                <li>The project leveraged <b>JavaFX</b>, a powerful framework within <b>Java</b>, for developing the graphical user interface <b>(GUI)</b>.</li>
+                                <li>Java language was used for implementing the logic behind image processing algorithms, such as applying filters, transformations (e.g., rotation, scaling), and other adjustments (e.g., brightness, contrast).</li>
+                                <li>Java's standard libraries were utilized for handling image data and performing file operations.</li>
+                            </ul>
+                            
+                            <a href="https://github.com/12sonal/Image-Processing-Using-JavaFX" class="button button--flex button--small projects__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                      </div>  
+
+                    <!--==================== Project 4 ====================-->  
+                    <div class="projects__content grid swiper-slide">
+                        <img src="assets/img/portfolio4.jpg" alt="" class="projects__img">
+
+                        <div class="projects__data">
+                            <h3 class="projects__title">Amazon Xplorer</h3>
+                            <ul class="projects__description">
+                                <li>X app like functionality in Amazon app using <b>Figma</b></li>
+                                <li>The objective is to devise a set of features for the Amazon app that mirrors the functionality found in X and entices users to 
+                                    shift their engagement away from X.</li>
+                                <li>Implemented 4 sprints starting from <b>Mapping</b>, <b>Hand Sketching & Dot Voting</b>, <b>Prototyping</b> & <b>Test.</b></li>
+                                
+                        
+                            </ul>
+                            <a href="https://www.figma.com/design/DlYP2CFaL7YdLEHypz65gQ/SonalSuryakantGurav_Fall23?node-id=909-2&t=7C5AknSLBBP0EWTU-0" class="button button--flex button--small projects__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                      </div>    
+                    </div>
+
+                    <!--====================Add Arrows==========-->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+                    </div>
+                     
+                     <!--=================Add Pagination==========-->
+                    <div class="swiper-pagination"></div>
+                </div>      
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">Do you have any opportunity in?</h2>
+                            <ul class="project__description">
+                                <li></li>
+                                    <li><b>Salesforce development/</b></li>
+                                    <li><b>Salesforce Administration/</b></li>
+                                    <li><b>Software Engineering</b></li>
+                                    <li>I am open to discuss new opportunities to challenge my technical skills and drive innovative solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="ContactMe">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact container container grid">
+                    <div>                      
+                        <div class="contact__information">
+                            <i class="uil uil-envelope-alt contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <a href="mailto:sgurav621@gmail.com">sgurav621@gmail.com</a>                                  
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/sonalgurav/" target="_blank">LinkedIn Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                  <div>
+                    <h1 class="footer__title">Sonal</h1>
+                    <span class="footer__subtitle">Salesforce Developer</span>
+                    <br>
+                    <span class="footer__location">San Jose, California</span>   
+                 </div>
+            </div>
+                 <p class="footer__copy">&#169; SonalGurav. All rights reserved</p>
+            </div>       
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!-- Example menu and buttons -->
+        
+
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js">
+        </script>
+    </body>
+</html>
